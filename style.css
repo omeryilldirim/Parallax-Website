@@ -53,11 +53,11 @@ html {
 } */
 .heading_container{
     text-align: center;
-    font-size: 3rem ;
+    font-size: 4rem ;
     letter-spacing: 0.5rem;
     color:rgb(255, 255, 255);
     font-weight: 700;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
 .heading_container-big{
     background-color: rgba(255, 235, 205, 0.328);
@@ -65,7 +65,7 @@ html {
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     outline: 0.5rem inset rgba(241, 48, 9, 0.79);
-    outline-offset: 1rem;
+    outline-offset: 1.5rem;
     line-height: 5rem;
 }
 .heading_container-small{
@@ -74,7 +74,7 @@ html {
     border-top-left-radius: 0.7rem;
     border-bottom-right-radius: 0.7rem;
     outline: 0.4rem inset rgba(241, 48, 9, 0.79);
-    outline-offset: 0.2rem;
+    outline-offset: 0.5rem;
     line-height: 5rem;
 }
 .section{
