@@ -17,23 +17,23 @@ p {
   font-weight: 300;
 }
 .image1_container {
-  background-image: url(./img/bg.jpeg);
+  background-image: url(./images/bg.jpeg);
   min-height: 100%;
 }
 .image2_container {
-  background-image: url(./img/bg2.jpeg);
+  background-image: url(./images//bg2.jpeg);
   min-height: 100%;
 }
 .image3_container {
-  background-image: url(./img/bg3.jpeg);
+  background-image: url(./images//bg3.jpeg);
   min-height: 100%;
 }
 .image4_container {
-  background-image: url(./img/bg5.jpeg);
+  background-image: url(./images//bg5.jpeg);
   min-height: 100%;
 }
 .image5_container {
-  background-image: url(./img/bg4.webp);
+  background-image: url(./images//bg4.webp);
   min-height: 100%;
 }
 .image1_container,
@@ -75,7 +75,6 @@ p {
     line-height: 5rem;
     font-weight: 900;
     font-family: 'Kalam', cursive;
-
 }
 .heading_container-small{
     text-align: center;
@@ -151,11 +150,3 @@ p {
     font-size: 1.8rem;
   }
 }
-@media screen and (min-width: 1128px){
-  .heading_container-small {
-    /* border-top-left-radius: 0.7rem;
-    border-bottom-right-radius: 0.7rem; */
-  }
-}
-
-

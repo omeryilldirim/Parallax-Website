@@ -9,7 +9,7 @@ Project aims to create parallax website.
 mardin-city-website (folder)
 |
 |----readme.md        
-|----im
+|----images
 |----index.html  
 |----style.css   
 ```
@@ -20,13 +20,9 @@ mardin-city-website (folder)
 
 ### At the end of the project, following topics are to be covered;
 
-- HTML 
+- HTML-CSS Responsive Design
 
-- List Properties
-
-- Overflow Property-Display Property-The float Property-Opacity / Transparency-Units in CSS
-
-- CSS Setting height and width-CSS Outline-CSS Combinators
+- CSS Media Query, CSS Outline, CSS Combinators, Display Property
 
 - improved coding skills within HTML & CSS
 
