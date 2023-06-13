@@ -6,11 +6,15 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: 0;
-  font-family: 'Coiny', cursive;
+  font-family: 'Dancing Script', cursive;
   font-weight: 400;
   line-height: 1.8rem;
   height: 100%;
   color: var(--gray);
+}
+p {
+  font-family: 'Kalam', cursive;
+  font-weight: 300;
 }
 .image1_container {
   background-image: url(./img/bg.jpeg);
@@ -52,30 +56,36 @@ html {
     margin: 1rem;
 } */
 .heading_container{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
     font-size: 4rem ;
     letter-spacing: 0.5rem;
     color:rgb(255, 255, 255);
     font-weight: 700;
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
 }
 .heading_container-big{
-    background-color: rgba(255, 235, 205, 0.328);
-    padding: 2rem;
+    background-color:  rgba(255, 235, 205, 0.565);
+    padding: 1rem;
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    outline: 0.5rem inset rgba(241, 48, 9, 0.79);
-    outline-offset: 1.5rem;
+    outline: 0.5rem inset rgba(241, 48, 9, 0.828);
+    outline-offset: 1rem;
     line-height: 5rem;
+    font-weight: 900;
+    font-family: 'Kalam', cursive;
+
 }
 .heading_container-small{
-  background-color: rgba(255, 235, 205, 0.635);
+    text-align: center;
+    background-color: rgba(255, 235, 205, 0.635);
     padding: 0.7rem;
-    border-top-left-radius: 0.7rem;
-    border-bottom-right-radius: 0.7rem;
     outline: 0.4rem inset rgba(241, 48, 9, 0.79);
     outline-offset: 0.5rem;
-    line-height: 5rem;
+    line-height: 6.2rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
 }
 .section{
     text-align: center;
@@ -88,4 +98,64 @@ html {
 .section h2{
   font-size: 2rem;
 }
+
+/* Media Queries */
+@media screen and (max-width: 576px) {
+  .heading_container-big {
+    font-size: 2rem;
+  }
+  .heading_container-small {
+    font-size: 1.6rem;
+    line-height: 3.3rem;
+  }
+  .section {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    line-height: normal;
+  }
+  .section h2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .heading_container-big {
+    font-size: 2.2rem;
+  }
+  .heading_container-small {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+  }
+  .section {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    line-height: normal;
+  }
+  .section h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .heading_container-big {
+    font-size: 2.7rem;
+  }
+  .heading_container-small {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .section {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    line-height: normal;
+  }
+  .section h2 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1128px){
+  .heading_container-small {
+    /* border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem; */
+  }
+}
+
 
