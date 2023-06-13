@@ -9,7 +9,7 @@ Project aims to create parallax website.
 mardin-city-website (folder)
 |
 |----readme.md        
-|----images
+|----im
 |----index.html  
 |----style.css   
 ```
